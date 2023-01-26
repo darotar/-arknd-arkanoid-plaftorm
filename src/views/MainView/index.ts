@@ -1,0 +1,1 @@
+export { ArkanoidGameView } from './MainView';
