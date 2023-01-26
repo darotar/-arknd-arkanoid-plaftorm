@@ -1,5 +1,5 @@
-import { BALL_SPEED, PANEL_HEIGHT, PANEL_WIDTH } from '../../consts';
-import { UserEventService } from '../../context/services/userEventService';
+import { BALL_SPEED, PANEL_HEIGHT, PANEL_WIDTH } from '../../../consts';
+import { UserEventService } from '../../../context/services/userEventService';
 import { Ball } from '../Ball';
 import { Panel } from '../Panel';
 

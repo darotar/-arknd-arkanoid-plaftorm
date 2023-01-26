@@ -1,8 +1,8 @@
 import { FC, useRef, useEffect, useContext } from 'react';
-import { CANVAS_HEIGHT, CANVAS_WIDTH } from '../../consts';
+import { CANVAS_HEIGHT, CANVAS_WIDTH } from '../../../consts';
 
-import { GameContext } from '../../context/gameContext';
-import { ArkanoidGameView } from '../../views/MainView';
+import { GameContext } from '../../../context/gameContext';
+import { ArkanoidGameView } from '../../canvas/views/MainView';
 
 export const CanvasContainer: FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);

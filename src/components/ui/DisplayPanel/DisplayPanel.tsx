@@ -1,5 +1,5 @@
 import { FC, useContext } from 'react';
-import { GameContext } from '../../context/gameContext';
+import { GameContext } from '../../../context/gameContext';
 
 import { PanelWrapper, UserMeta, UserWrapper } from './DisplayPanel.styles';
 

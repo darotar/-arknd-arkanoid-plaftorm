@@ -1,5 +1,5 @@
-import { GAME_TOGGLE_KEY } from '../../consts';
-import { UserEventService } from '../../context/services/userEventService';
+import { GAME_TOGGLE_KEY } from '../../../../consts';
+import { UserEventService } from '../../../../context/services/userEventService';
 import { initializeObjects, ObjectsFabric } from './objectsFabric';
 import { ArkanoidRenderer } from './renderer';
 

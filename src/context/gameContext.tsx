@@ -8,7 +8,7 @@ import {
   useReducer,
   useMemo,
 } from 'react';
-import { ArkanoidGameView } from '../views/MainView';
+import { ArkanoidGameView } from '../components/canvas/views/MainView';
 import { defaultUserState, userReducer } from './reducers/usersReducer';
 import { UserEventService } from './services/userEventService';
 

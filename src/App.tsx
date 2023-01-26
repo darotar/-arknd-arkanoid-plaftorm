@@ -1,6 +1,6 @@
 import './App.css';
-import { CanvasContainer } from './components/CanvasContainer/CanvasContainer';
-import { DisplayPanel } from './components/DisplayPanel';
+import { CanvasContainer } from './components/ui/CanvasContainer/CanvasContainer';
+import { DisplayPanel } from './components/ui/DisplayPanel';
 import { GameContextProvider } from './context/gameContext';
 
 function App() {

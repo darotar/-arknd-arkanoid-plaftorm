@@ -4,8 +4,8 @@ import {
   BALL_SPEED,
   BALL_STROKE_COLOR,
   BALL_STROKE_WIDTH,
-} from '../../consts';
-import { ObjectEdges } from '../../types';
+} from '../../../consts';
+import { ObjectEdges } from '../../../types';
 
 type Vector = { x: number; y: number };
 

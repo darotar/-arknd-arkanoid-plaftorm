@@ -1,5 +1,5 @@
-import { PANEL_HEIGHT, PANEL_SPEED, PANEL_WIDTH } from '../../consts';
-import { ObjectEdges, UserKeys } from '../../types';
+import { PANEL_HEIGHT, PANEL_SPEED, PANEL_WIDTH } from '../../../consts';
+import { ObjectEdges, UserKeys } from '../../../types';
 import { Ball } from '../Ball';
 
 export class Panel {

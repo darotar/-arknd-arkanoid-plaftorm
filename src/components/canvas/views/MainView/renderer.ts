@@ -1,6 +1,6 @@
-import { Ball } from '../../components/Ball';
-import { Panel } from '../../components/Panel';
-import { BACKGROUND_COLOR } from '../../consts';
+import { Ball } from '../../Ball';
+import { Panel } from '../../Panel';
+import { BACKGROUND_COLOR } from '../../../../consts';
 
 export class ArkanoidRenderer {
   constructor(private context: CanvasRenderingContext2D) {}

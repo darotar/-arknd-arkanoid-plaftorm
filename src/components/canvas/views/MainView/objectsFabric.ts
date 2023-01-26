@@ -1,8 +1,8 @@
-import { Ball } from '../../components/Ball';
-import { Collision } from '../../components/Collision';
-import { Panel } from '../../components/Panel';
-import { PANEL_HEIGHT, PANEL_WIDTH } from '../../consts';
-import { UserEventService } from '../../context/services/userEventService';
+import { Ball } from '../../Ball';
+import { Collision } from '../../Collision';
+import { Panel } from '../../Panel';
+import { PANEL_HEIGHT, PANEL_WIDTH } from '../../../../consts';
+import { UserEventService } from '../../../../context/services/userEventService';
 
 export type ObjectsFabric = {
   ball: Ball;
